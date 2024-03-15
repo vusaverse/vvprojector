@@ -16,9 +16,15 @@
     <loc>/index.html</loc>
   </url>
   <url>
+    <loc>/reference/create_config_csv_files.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
   </url>
   <url>
     <loc>/reference/overwrite_dot_arguments.html</loc>
+  </url>
+  <url>
+    <loc>/reference/vvprojector_write_package_config_yml.html</loc>
   </url>
 </urlset>
