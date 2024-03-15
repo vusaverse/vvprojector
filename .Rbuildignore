@@ -1,0 +1,9 @@
+^LICENSE\.md$
+^\.github$
+^vvprojector\.Rproj$
+^\.Rproj\.user$
+^helperfunctions$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^TODO\.md$
