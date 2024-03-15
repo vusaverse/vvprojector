@@ -37,7 +37,8 @@ create_config_csv_files <- function(user_config_path = "user_config.yml", output
   } else {
     message("No user-specified config.yml found. Using package defaults.")
     # Fall back to the package's default config.yml
-    user_config <- config::get(file = here::here("inst", "config.yml"))
+    package_config_path <- system.file("config.yml", package = "vvprojector", mustWork = TRUE)
+    user_config <- config::get(file = package_config_path)
 
     # Inform the user about the package defaults
     message("Package defaults are:")
